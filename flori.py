@@ -8,7 +8,7 @@ from flask import Flask, url_for
 
 
 
-print('filme')
+print('flori')
 
 
 
@@ -39,7 +39,5 @@ def index():
     ret += " - -test3\n"
 
     ret += " - -test4"
-
-        
 
     return ret
