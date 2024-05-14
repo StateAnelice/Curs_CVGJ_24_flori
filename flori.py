@@ -40,6 +40,4 @@ def index():
 
     ret += " - -test4"
 
-    
-
     return ret
