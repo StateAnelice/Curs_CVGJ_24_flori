@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinație Pagină cu imagini și Descriere trandafir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+        .description {
+            margin-top: 40px;
+        }
+        .description p {
+            color: #666;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Trandafirul</h1>
+    <div class="image-grid">
+        <img src="https://gomagcdn.ro/domains2/pepinieramontegarden.ro/files/product/large/trandafir-copac-galben-golden-trandafir-pomisor-galben-736410.png" alt="Imagine 1">
+        <img src="https://ucadecor.ro/wp-content/uploads/2020/01/globalrose-flower-bouquets-prime-100-red-roses-64_1000.jpg" alt="Imagine 2">
+        <img src="https://www.giftexpress.ro/md/prod/trandafir-criogenat-red-rose-1-10489-3916582999.jpg" alt="Imagine 3">
+    </div>
+    <div class="description">
+        <p>Trandafirul este una dintre cele mai populare flori din lume. Este cunoscut pentru frumusețea și aroma sa delicată. Trandafirul poate fi găsit în diferite culori, cum ar fi roșu, roz, alb și galben.</p>
+        <p>Această floare este adesea asociată cu iubirea și romantismul și este folosită în multe ocazii speciale, cum ar fi nunți, aniversări și sărbători.</p>
+        <p>În plus față de frumusețea sa, trandafirul are și anumite proprietăți vindecătoare și este folosit în aromaterapie și în diverse produse cosmetice.</p>
+    </div>
+</div>
+
+</body>
+</html>
