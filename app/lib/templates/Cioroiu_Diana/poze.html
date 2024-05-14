@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            transition: background-image 3s ease-in-out;
+        }
+        .menu-bar {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.menu-bar li {
+    margin: 0 10px;
+}
+
+.menu-bar a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar a:hover {
+    background-color: #575757;
+}
+    </style>
+</head>
+<body class="background-image">
+<nav>
+    <ul class="menu-bar">
+        <li class="tab-home"><a href="/">Descriere</a></li>
+        <li class="tab-about"><a href="/poze">Poze</a></li>
+        <li class="tab-services"><a href="/preturi">Prețuri</a></li>
+    </ul>
+</nav>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+              const images = ["https://www.flori-nemuritoare.ro/wp-content/uploads/2017/10/BUCHET-CU-LAVANDA-SI-SPICE-1024x1024.jpg", "https://www.flori-cultura.ro/wp-content/uploads/2013/02/Xeranthemum_annuum2.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhoC0YqLz0sUSobFPKVE3E_bMnKPLkM92qk3pzZn2bBA&s", "https://bonlavie.ro/pics/2/Naturale-uscate-flori-nemuritoare-a-crescut-coada-de-70955.jpg"]; // Înlocuiește cu numele fișierelor imaginilor tale
+              let index = Math.floor(Math.random() * images.length);
+              let lastIndex = index;
+
+              function changeBackground() {
+                  let newIndex = index;
+                  while (newIndex === lastIndex) {
+                      newIndex = Math.floor(Math.random() * images.length);
+                  }
+                  lastIndex = index;
+                  index = newIndex;
+
+                  document.body.style.backgroundImage = `url(${images[index]})`;
+              }
+
+              changeBackground();
+              setInterval(changeBackground, 2000); // Schimbă imaginea la fiecare 3 secunde (3000 milisecunde)
+          });al(changeBackground, 2000);
+
+</script>
+</body>
+</html>
