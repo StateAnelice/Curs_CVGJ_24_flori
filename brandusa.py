@@ -1,5 +1,5 @@
 from flask import Flask, url_for
-from app.lib.libs import descriere_brandusa, culoare_brandusa
+from lib.libs import descriere_brandusa, culoare_brandusa
 
 
 app = Flask(__name__)
