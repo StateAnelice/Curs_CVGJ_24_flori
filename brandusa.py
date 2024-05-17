@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/", methods=['GET'])
 def index():
     ret = "<h1> Flori </h1>"
-    ret += f"<a href={url_for('brandusa')}>Brândușa de munte -State Anelice-Mariana</a>"
+    ret += f"<a href={url_for('brandusa')}>Brândușa de munte -Dobre Sebastian Petrut</a>"
     return ret
 
 @app.route("/brandusa", methods=['GET'])
