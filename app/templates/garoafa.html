@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garoafa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Despre Garoafa</h1>
+        <h2><strong>Descriere:</strong></h2>
+        <p>{{ descriere }}. {{ anotimp }}</p>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/garoafa1.jpg') }}" alt="Garoafa">
+        </div>
+        <h2><strong>Culori:</strong></h2>
+        <p>{{ culoare }}</p>
+        <div class="image-container">
+            <img src="{{ url_for('static', filename='images/garoafa2.jpg') }}" alt="Garoafe Colorate">
+        </div>
+    </div>
+</body>
+</html>

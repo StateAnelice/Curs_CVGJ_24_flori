@@ -1,16 +1,33 @@
-# Curs_CVGJ_24_flori - Bujori
+# Curs_CVGJ_24_flori - Garoafa
 
-Am urmat pasii prezentati in platforma, conectandu-ma la gitHub, la repository-ul creat respectiv grupei noastre
+1. Am urmat pasii prezentati in platforma, conectandu-ma la gitHub, la repository-ul creat pentru grupa noastra si l-am descarcat folosind git clone.
 
-![alt text](image.png)
 
-Am creat functiile de python necesare, reprezentand caracteristici ale florii alese, si anume bujorul, pe care apoi le-am apelat alaturi de o pagina html creata de mine si folosind flask am creat 
+
+2. Am creat functiile de python necesare, reprezentand caracteristici ale florii alese, si anume garoafa.
+
+    Prezentare pagina principala html:
+
+    
 
 ![alt text](image-1.png)
 
-Am facut functii pentru teste ca sa verificam functionarea librariei si paginii web, teste ce au si trecut
+3. Am facut functii pentru teste ca sa verificam functionarea librariei si paginii web:
+
+test_app.py:
 
 ![alt text](image-2.png)
+
+test_libs.py:
+
 ![alt text](image-3.png)
 
-Am creat pipeline in jenkins si am rulat fisierul jenkins, dupa care am containeizat in docker
+4. Rezultatele testelor:
+
+test_app.py:
+
+![alt text](image-4.png)
+
+test_libs.py:
+
+![alt text](image-5.png)

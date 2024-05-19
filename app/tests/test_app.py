@@ -1,20 +1,21 @@
 import unittest
+import os
+import sys
 
-import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from bujori import app as bujori
+from garoafa import app as garoafa
 
 class BasicTests(unittest.TestCase):
 
     def setUp(self):
-        self.bujori = bujori.test_client()
-        self.bujori.testing = True
+        self.garoafa = garoafa.test_client()
+        self.garoafa.testing = True
 
     def test_index(self):
-        result = self.bujori.get('/')
+        result = self.garoafa.get('/')
         self.assertEqual(result.status_code, 200)
-        self.assertIn(b'index', result.data)
+        self.assertIn(b'Despre Garoafa', result.data)
 
 if __name__ == "__main__":
     unittest.main()
