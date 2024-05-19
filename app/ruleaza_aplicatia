@@ -1,0 +1,7 @@
+#!/bin/bash
+#LINUX
+export FLASK_APP=444D_flori
+#WINDOWS
+#set FLASK_APP=444D_flori
+
+flask run -p 5011 --reload
