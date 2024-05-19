@@ -16,16 +16,15 @@
         <div>
             <h1 >Despre Bujori</h1>
             <br>
-            <img src="../images/bujori1.jpeg" alt="Bujori">
             <h2> <strong> Descriere: </strong></h2>
-            <p> {{ descriere }} </p>
+            <p> {{ descriere }} . {{ anotimp }} </p>
+            <img src="{{ url_for('static', filename='images/bujori1.jpeg') }}" alt="Bujori">
+
                   
             <h2><strong> Culori: </strong></h2>
             <p> {{ culoare }} </p>
-            <img src="../images/bujori2.jpeg" alt="Bujori Colorati">
+            <img src="{{ url_for('static', filename='images/bujori2.jpeg') }}" alt="Bujori Colorati">
 
-            <h2><strong>Anotimp: </strong></h2>
-            <p> {{ anotimp }}</p>
         </div>
     </body>
 </html>
