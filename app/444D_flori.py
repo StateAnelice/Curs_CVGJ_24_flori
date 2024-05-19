@@ -1,6 +1,6 @@
 from flask import Flask, url_for
 
-from lib.biblioteca import descriere_Dalia,culoare_Dalia
+from lib.biblioteca_flori import descriere_Dalia,culoare_Dalia
 
 
 
