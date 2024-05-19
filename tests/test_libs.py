@@ -5,7 +5,7 @@ logger = logging.getLogger(__name__)
 import sys
 sys.path.append("../")
 
-import app.lib.biblioteca_flori as flori
+import lib.biblioteca_flori as flori
 
 
 
