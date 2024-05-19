@@ -8,4 +8,4 @@ def floare_liliac():
     return "Florile sunt simple sau duble, plăcut mirositoare, grupate în penicule de până la 20 cm lungime, multiflorale, în culori diferite, de la liliachiu la alb. Floarea are caliciul mic, campanulat, cu patru dinți, corolă cu tub de un centimetru lungime, cu patru lobi patenți și două stamine."
 
 def culoare_liliac():
-    return "Florile brândușei de munte sunt de obicei violete, dar pot fi și albe."
+    return "Lila este o culoare asemănătoare cu violetul, dar o nuanță mai deschisă, spre roz. Numele provine de la florile de liliac, care au această culoare."
