@@ -1,5 +1,5 @@
 from flask import Flask, url_for
-from lib.biblioteca import *
+from lib.biblioteca_flori import *
 
 app = Flask(__name__)
 
