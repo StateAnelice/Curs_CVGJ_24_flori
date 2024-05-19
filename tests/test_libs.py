@@ -1,5 +1,5 @@
 import unittest
-from lib.libs import descriere_brandusa, culoare_brandusa
+from lib.libs import descriere_ghiocel, culoare_ghiocel
 
 
 class TestBiblioteca(unittest.TestCase):
