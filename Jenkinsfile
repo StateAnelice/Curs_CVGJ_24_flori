@@ -4,7 +4,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'pip install Flask --break-system-packages'
             }
         }
         stage('Test') {
