@@ -7,20 +7,20 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/brandusa", methods=['GET'])
-def brandusa():
-    descriere = lib.libs.descriere_brandusa()
-    culoare = lib.libs.culoare_brandusa()
-    return render_template("brandusa.html", descriere=descriere, culoare=culoare)
+@app.route("/hortensie", methods=['GET'])
+def hortensie():
+    descriere = lib.libs.descriere_hortensie()
+    culoare = lib.libs.culoare_hortensie()
+    return render_template("hortensie.html", descriere=descriere, culoare=culoare)
 
-@app.route("/brandusa/descriere", methods=['GET'])
-def descriere_brandusa():
-    descriere = lib.libs.descriere_brandusa()
+@app.route("/hortensie/descriere", methods=['GET'])
+def descriere_hortensie():
+    descriere = lib.libs.descriere_hortensie()
     return render_template("descriere.html", descriere=descriere)
 
-@app.route("/brandusa/culoare", methods=['GET'])
-def culoare_brandusa():
-    culoare = lib.libs.culoare_brandusa()
+@app.route("/hortensie/culoare", methods=['GET'])
+def culoare_hortensie():
+    culoare = lib.libs.culoare_hortensie()
     return render_template("culoare.html", culoare=culoare)
 
 if __name__ == "__main__":

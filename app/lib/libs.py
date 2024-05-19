@@ -1,5 +1,5 @@
-def descriere_brandusa():
-    return "Brândușa de munte este o plantă scundă din familia Iridaceae. Are o singură tulpină mică, înconjurată la bază de mai multe teci cu două-trei frunze alungite și înguste. La vârful tulpinii se găsește o singură floare violet-deschisă cu o dungă mai întunecată la vârful florii.."
+def descriere_hortensie():
+    return "Hortensia, (/haɪˈdreɪndʒiə/)[3] numită în mod obișnuit hortensia, este un gen de peste 75 de specii de plante cu flori originare din Asia și America. De departe, cea mai mare diversitate de specii se află în estul Asiei, în special în China, Coreea și Japonia."
 
-def culoare_brandusa():
-    return "Florile brândușei de munte sunt de obicei violete, dar pot fi și albe."
+def culoare_hortensie():
+    return "Florile hortensiei sunt de obicei albe, albastre sau roz."
