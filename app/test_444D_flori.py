@@ -20,7 +20,7 @@ def test_culoare_lalea():
         assert False
 
 def test_descriere_lalea():
-    descriere = fructe.descriere_lalea()
+    descriere = flori.descriere_lalea()
 
     if "Laleaua este o planta bulboasa perena" in descriere:
         logger.info(f"Functia descriere_lalea functioneaza corect:\n{descriere}")
