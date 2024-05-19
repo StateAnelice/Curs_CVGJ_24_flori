@@ -5,12 +5,12 @@ logger = logging.getLogger(__name__)
 import sys
 sys.path.append("../")
 
-import lib.biblioteca_fructe as fructe
+import lib.biblioteca_flori as flori
 
 
 
 def test_culoare_Dalia():
-    culoare = fructe.culoare_Dalia()
+    culoare = flori.culoare_Dalia()
 
     if "toate culorile" in culoare:
         logger.info(f"Functia culoare_Dalia functioneaza corect: {culoare}")
@@ -20,7 +20,7 @@ def test_culoare_Dalia():
         assert False
 
 def test_descriere_Dalia():
-    descriere = fructe.descriere_acai()
+    descriere = flori.descriere_acai()
 
     if "plus de culoare" in descriere:
         logger.info(f"Functia descriere_Dalia functioneaza corect:\n{descriere}")
