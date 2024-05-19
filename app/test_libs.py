@@ -20,7 +20,7 @@ def test_culoare_Dalia():
         assert False
 
 def test_descriere_Dalia():
-    descriere = flori.descriere_acai()
+    descriere = flori.descriere_Dalia()
 
     if "plus de culoare" in descriere:
         logger.info(f"Functia descriere_Dalia functioneaza corect:\n{descriere}")
