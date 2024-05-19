@@ -11,14 +11,13 @@ Aceasta este o aplicație web simplă realizată cu Flask, care servește trei p
 
 ## Configurare și Instalare
 
-1. **Clonează depozitul** (dacă este găzduit pe un sistem de control al versiunilor precum GitHub):
+1. **Clonează depozitul** 
 
     ```bash
     git clone https://github.com/StateAnelice/Curs_CVGJ_24_flori.git
-    cd your_flask_app
     ```
 
-2. **Creează un mediu virtual** (opțional, dar recomandat):
+2. **Creează un mediu virtual** 
 
     ```bash
     python3 -m venv venv
@@ -33,14 +32,13 @@ Aceasta este o aplicație web simplă realizată cu Flask, care servește trei p
 
 ## Rularea Aplicației
 
-1. **Setează variabila de mediu** (opțional, dar recomandat pentru dezvoltare):
+1. **Setează variabila de mediu**
 
     ```bash
-    export FLASK_APP=app.py
+    export FLASK_APP=trandafir.py
     export FLASK_ENV=development 
     ```
 
-    Pe Windows, folosește `set` în loc de `export`.
 
 2. **Rulează aplicația Flask**:
 
@@ -48,7 +46,7 @@ Aceasta este o aplicație web simplă realizată cu Flask, care servește trei p
     flask run
     ```
 
-3. **Deschide browserul web** și mergi la `http://127.0.0.1:5000/`.
+3. **Deschide browserul web** : `http://127.0.0.1:5000/`.
 
 ## Rutele Aplicației
 
