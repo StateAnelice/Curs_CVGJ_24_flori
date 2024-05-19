@@ -1,7 +1,7 @@
 !/bin/bash
 #LINUX
-export FLASK_APP=444D_flori
+export FLASK_APP=444D_flori.py
 #WINDOWS
-#set FLASK_APP=444D_flori
+#set FLASK_APP=444D_flori.py
 
 flask run -p 5011 --reload
