@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brândușa de munte</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Brândușa de munte</h1>
+    <img src="{{ url_for('static', filename='app/staic/images/brandusa.jpg') }}" alt="Brândușa de munte">
+    <nav>
+        <a href="{{ url_for('index') }}"><button>Catre pagina principala</button></a>
+        <a href="{{ url_for('descriere_brandusa') }}"><button>Afla descrierea brandusei de munte</button></a>
+        <a href="{{ url_for('culoare_brandusa') }}"><button>Afla culoarea brandusei de munte</button></a>
+    </nav>
+
+</body>
+</html>
