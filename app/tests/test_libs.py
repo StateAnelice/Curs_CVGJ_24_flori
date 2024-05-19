@@ -1,5 +1,10 @@
 import unittest
-from app.lib.biblioteca_liliac import descriere_liliac, frunze_liliac, floare_liliac, culoare_liliac
+
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+from lib.biblioteca_liliac import descriere_liliac, frunze_liliac, floare_liliac, culoare_liliac
 
 class TestBiblioteca(unittest.TestCase):
 
@@ -8,7 +13,7 @@ class TestBiblioteca(unittest.TestCase):
         self.assertEqual(descriere, "Liliacul (Syringa vulgaris) face parte din familia oleaceelor și este o specie din genul Syringa care înflorește primăvara. Este un arbust a cărui înălțime poate ajunge până la șapte metri, cu ramuri drepte și lujeri puțin muchiați.")
 
     def test_frunze_liliac(self):
-        frunze = culoare_liliac()
+        frunze = frunze_liliac()
         self.assertEqual(frunze, "Frunzele sunt ovate sau lat-ovate, la bază cordate, până la 12 centimetri lungime, acuminate, pețiol circa 2,5 cm lungime, glabre, verzi-întunecat.")
 
     def test_floare_liliac(self):
