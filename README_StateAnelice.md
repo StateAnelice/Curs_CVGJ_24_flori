@@ -1,5 +1,5 @@
 # Curs_CVGJ_24_flori
-1. Folder start
+1. Folder start/n
    Am creat directorul proiect unde am clonat repozitorul de pe github.Am instalat python3, pytest, flask,pylint.
 ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/assets/165558775/6fc8610c-51ad-4f07-8e87-665bf839e14b)
 ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/assets/165558775/18c29b76-6dda-45ae-8d0d-4c5e81bf8f68)
