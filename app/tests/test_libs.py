@@ -5,11 +5,11 @@ class TestBiblioteca(unittest.TestCase):
 
     def test_descriere_brandusa(self):
         descriere = descriere_brandusa()
-        self.assertEqual(descriere, "Brândușa de munte este o plantă perenă, cu flori violete sau albe, care crește în regiunile montane.")
+        self.assertEqual(descriere, "Lăcrămioara (lat. Convallaria majalis) este o specie de plante erbacee, perene prin rizom,.")
 
     def test_culoare_brandusa(self):
         culoare = culoare_brandusa()
-        self.assertEqual(culoare, "Florile brândușei de munte sunt de obicei violete, dar pot fi și albe.")
+        self.assertEqual(culoare, "Florile lăcrămioarei sunt de regulă albe, uneori avand ușoare note rozalii pe margini.")
 
 if __name__ == "__main__":
     unittest.main()

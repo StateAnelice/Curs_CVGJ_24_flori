@@ -1,5 +1,5 @@
 import unittest
-from app.brandusa import app
+from app.lacramioara import app
 
 class BasicTests(unittest.TestCase):
     # Executat înainte de fiecare test
@@ -13,19 +13,19 @@ class BasicTests(unittest.TestCase):
         response = self.app.get('/', follow_redirects=True)
         print(response.data)
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b'Brandusa', response.data)
+        self.assertIn(b'Lacramioara', response.data)
 
     def test_color_page(self):
         response = self.app.get('/color', follow_redirects=True)
         print(response.data)
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b'Brandusa', response.data)
+        self.assertIn(b'Lacramioara', response.data)
 
     def test_description_page(self):
         response = self.app.get('/description', follow_redirects=True)
         print(response.data)
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b'Brandusa', response.data)
+        self.assertIn(b'Lacramioara', response.data)
 
 
 # Permite rularea testelor cu 'python test_app.py'
