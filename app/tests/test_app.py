@@ -3,18 +3,18 @@ import unittest
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from bujori import app as bujori
+from panseluta import app as panseluta
 
 class BasicTests(unittest.TestCase):
 
     def setUp(self):
-        self.bujori = bujori.test_client()
-        self.bujori.testing = True
+        self.panseluta = panseluta.test_client()
+        self.panseluta.testing = True
 
     def test_index(self):
-        result = self.bujori.get('/')
+        result = self.panseluta.get('/')
         self.assertEqual(result.status_code, 200)
-        self.assertIn(b'index', result.data)
+        self.assertIn(b'Despre Panselute', result.data)
 
 if __name__ == "__main__":
     unittest.main()

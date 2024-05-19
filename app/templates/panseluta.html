@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Panseluta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Despre Panselute</h1>
+        <br>
+        <h2><strong>Descriere:</strong></h2>
+        <p>{{ descriere }}</p>
+        <img src="{{ url_for('static', filename='images/panseluta1.jpg') }}" alt="Panseluta">
+
+        <h2><strong>Culori:</strong></h2>
+        <p>{{ culoare }}</p>
+        <img src="{{ url_for('static', filename='images/panseluta2.jpg') }}" alt="Panselute Colorate">
+    </div>
+</body>
+</html>

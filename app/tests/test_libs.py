@@ -1,23 +1,21 @@
 import unittest
+import sys
+import os
 
-import os, sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from lib.biblioteca_bujori import descriere_bujori, culoare_bujori, anotimp_bujori
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'lib')))
 
-class TestBiblioteca(unittest.TestCase):
+from biblioteca_panseluta import descriere_panseluta, culoare_panseluta, anotimp_panseluta
 
-    def test_descriere_bujori(self):
-        descriere = descriere_bujori()
-        self.assertEqual(descriere, "Bujorii (Paeonia) sunt flori de grădină extrem de populare, apreciate pentru florile lor mari și parfumate. \n Bujorii sunt plante perene care aparțin familiei Paeoniaceae. Sunt originari din Asia, Europa și America de Nord și sunt cunoscuți pentru florile lor spectaculoase și frunzișul luxuriant")
+class TestBibliotecaPanseluta(unittest.TestCase):
+    def test_descriere_panseluta(self):
+        self.assertEqual(descriere_panseluta(), "Panseluța este o floare sălbatică de origine europeană, care crește în toate anotimpurile. Panseluța este o plantă de dimensiuni mici, care crește pe tulpină, atinge cel mult 15 cm în înălțime, cu flori care au un diametru de aproximativ 1.5 cm.")
 
-    def test_culoare_brandusa(self):
-        culoare = culoare_bujori()
-        self.assertEqual(culoare, "Bujorii pot fi de culoare alb, roz, roșu, mov, galben, ultimele două fiind mai rar întâlnite")
+    def test_culoare_panseluta(self):
+        self.assertEqual(culoare_panseluta(), "Florile pot fi purpurii, albastre, galbene sau albe.")
 
-    def test_anotimp_bujori(self):
-        anotimp = anotimp_bujori()
-        self.assertEqual(anotimp, "Bujorii înfloresc în principal primăvara și la începutul verii, începând cu luna mai")
+    def test_anotimp_panseluta(self):
+        self.assertEqual(anotimp_panseluta(), "Panselutele înfloresc de obicei în două anotimpuri: primavara și toamna.")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
