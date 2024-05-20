@@ -11,13 +11,13 @@ RUN adduser -D 444D_flori
 
 USER 444D_flori
 
-WORKDIR /home/proiect/Curs_CVGJ_24_flori
+WORKDIR /home/proiect/Curs_CVGJ_24_flori/
 
-COPY app app
+#COPY app app
 #COPY dockerstart.sh dockerstart.sh
 
 RUN python3 -m venv .venv
-RUN .venv/bin/pip install -r app/quickrequirements.txt
+#RUN .venv/bin/pip install -r app/quickrequirements.txt
 
 WORKDIR /home/proiect/Curs_CVGJ_24_flori/app
 
