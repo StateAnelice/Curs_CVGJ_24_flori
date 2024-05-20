@@ -2,4 +2,4 @@
 
 ![libTest](lib_test.png)
 
-![proiectJenkins](proiect_jenkins.png)
+![proiectJenkins](proiectJenkins.png)
