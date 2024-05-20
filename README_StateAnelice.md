@@ -19,9 +19,9 @@
    ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/assets/165558775/bfcc49ca-ce43-4c4c-b345-8b7008e41baa)
    ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/assets/165558775/37265a60-5428-4db4-9896-78ee9b6fa6f2)
 
-5. Adaugare pe git: S-a creeat un branch nou folosind comanda git branch devel/StateAnelice. S-a facut comutarea pe branch-ul nou creat cu git checkout devel/StateAnelice. Apoi s-au introdus comenzile git add ., git -m commit si git push.
+4. Adaugare pe git: S-a creeat un branch nou folosind comanda git branch devel/StateAnelice. S-a facut comutarea pe branch-ul nou creat cu git checkout devel/StateAnelice. Apoi s-au introdus comenzile git add ., git -m commit si git push.
    ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/assets/165558775/24da8c2d-4473-4658-be8d-2491d820620c)
-6.Creare container
+5.Creare container
  S-a creat o imagine de cointainer astfel:
 ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/assets/165558775/c66ab692-9c4a-4169-a1d3-c1ce3182579c)
 S-a incercat rularea lui, dar s-a primit urmatoarea eroare.
