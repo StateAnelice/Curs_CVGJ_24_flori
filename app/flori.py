@@ -12,12 +12,12 @@ def index():
 	ret = "<h> Flori </h>"
 	
 	return ret
-@app.route("/lavanda", methods=['GET'])
+@app.route("/Orhidee", methods=['GET'])
 def lavanda():
-	descriere = descriere_lavanda()
-	culoare = culoare_lavanda()
+	descriere = descriere_orhidee()
+	culoare = culoare_orhidee()
 	
-	ret = "<h1> Lavanda </h1>"
+	ret = "<h1> Orhidee </h1>"
 	
 	ret += f"<a href={url_for('index')}>[Flori]</a>"
 	ret += f"<a href={url_for('descriere')}>[Descriere]</a>"
@@ -33,10 +33,10 @@ def lavanda():
 
 @app.route("/lavanda/descriere", methods=['GET'])
 def descriere():
-	descriere = descriere_lavanda()
+	descriere = descriere_orhidee()
 	
 	ret = f"<a href={url_for('index')}>[Flori]</a>"
-	ret += f"<a href={url_for('descriere')}>[Lavanda]</a>"
+	ret += f"<a href={url_for('descriere')}>[Orhidee]</a>"
 	ret += f"<a href={url_for('culoare')}>[Culoare]</a>"
 	
 	ret += "<h2>Descriere: </h2>"
@@ -46,10 +46,10 @@ def descriere():
 	
 @app.route("/lavanda/culoare", methods=['GET'])
 def culoare():
-	culoare = culoare_lavanda()
+	culoare = culoare_orhidee()
 	
 	ret = f"<a href={url_for('index')}>[Flori]</a>"
-	ret += f"<a href={url_for('descriere')}>[Lavanda]</a>"
+	ret += f"<a href={url_for('descriere')}>[Orhidee]</a>"
 	ret += f"<a href={url_for('culoare')}>[Descriere]</a>"
 	
 	ret += "<h2>Descriere: </h2>"
