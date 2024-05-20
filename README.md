@@ -1,4 +1,4 @@
-# Curs_CVGJ_24_flori - Lavanda
+# Curs_CVGJ_24_flori - Orhidee
 
 Am urmat pasii prezentati in platforma, conectandu-ma la gitHub, la repository-ul creat grupei noastre
 
