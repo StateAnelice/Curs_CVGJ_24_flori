@@ -1,18 +1,27 @@
-FROM python:3.10
+FROM python:3.8-alpine
 
-RUN pip install --upgrade pip
+ENV FLASK_APP 444D_flori
+#ENV FLASK_CONFIG = docker
 
-RUN pip install flask
+#3.8 booster
+#RUN useradd -rm -d /home/site -s /bin/bash -g root -G sudo -u 1001 site
 
-RUN pip install pytest
+#3.8 alpine
+RUN adduser -D 444D_flori
 
-WORKDIR /app
+USER 444D_flori
 
-COPY . /app
+WORKDIR /home/proiect/Curs_CVGJ_24_flori
 
+COPY app app
+#COPY dockerstart.sh dockerstart.sh
 
-ENV FLASK_APP ./app/Dalia.py
+RUN python3 -m venv .venv
+RUN .venv/bin/pip install -r app/quickrequirements.txt
 
-EXPOSE 5000
+WORKDIR /home/proiect/Curs_CVGJ_24_flori/app
 
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+# runtime configuration
+EXPOSE 5011
+ENTRYPOINT ["./dockerstart.sh"]
+#CMD flask run --host 0.0.0.0 -p 5010
