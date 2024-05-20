@@ -2,7 +2,7 @@
 
 M-am conectat la GitHub, am fost adaugat la 
 
-![alt text](image1.jpg)
+![alt text](image-1.jpg)
 
 Am creat functiile de python necesare, reprezentand caracteristici ale lavandei, pe care apoi le-am apelat in cadrul unei pagini HTML pentru rezultatul final, rulat din Firefox local:
 
