@@ -10,4 +10,5 @@ Am creat functiile de python necesare, reprezentand caracteristici ale lavandei,
 
 Am scris codul necesar rularii de teste automat prin Jenkins, insa nu am putut rula pana la capat din cauza faptului ca nu am putut instala Blue Ocean.
 
+![alt text](JenkinsTests)
 ![alt text](image2.jpg)
