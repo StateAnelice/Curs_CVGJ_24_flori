@@ -1,9 +1,4 @@
 node {
-    sh '''git branch Haiducescu_Andrei
-    git checkout Haiducescu_Andrei'''
-}
-
-node {
     sh 'echo Jenkins started'
 }
 
