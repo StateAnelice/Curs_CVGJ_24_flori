@@ -26,3 +26,10 @@ Adaugare pe git: S-a creeat un branch nou folosind comanda git branch . S-a facu
 ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/ss6.png)
 ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/ss7.png)
 ![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/ss8.png)
+
+Din pacate urmatoarele doua erori nu m-au lasat sa continui partea de docker.
+Am incercat si solutia de aici : https://www.linkedin.com/pulse/resolving-docker-permission-denied-error-guide-om-prakash-singh
+Insa fara succes..
+
+![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/err1.png)
+![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/err2.png)
