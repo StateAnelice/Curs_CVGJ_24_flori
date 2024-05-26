@@ -31,5 +31,5 @@ Din pacate urmatoarele doua erori nu m-au lasat sa continui partea de docker.
 Am incercat si solutia de aici : https://www.linkedin.com/pulse/resolving-docker-permission-denied-error-guide-om-prakash-singh
 Insa fara succes..
 
-![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/err1.png)
-![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/err2.png)
+![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/Err1.png)
+![image](https://github.com/StateAnelice/Curs_CVGJ_24_flori/blob/devel/Marius_Dutu/Err2.png)
