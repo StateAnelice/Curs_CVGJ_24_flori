@@ -1,0 +1,4 @@
+1. Am creat directorul Curs_CVGJ_24_flori-Naltu_Mihai unde am clonat repozitorul de pe github. Am instalat python3, unittest, flask, pylint.
+2. Am realizat aplicatia cu ajutorul framework-ului Flask. Aplicatia poate fi gasita in fisierul magnolia.py, de asemenea am creat si biblioteca biblioteca_magnolia.py
+3. Pentru a vizualiza aplicatia se ruleaza magnolia.py si se acceseaza linkul: http://127.0.0.1:5000/
+4. Am testat aplicatia cu ajutorul bibliotecii unittest. Am creat fisierul JenkinsTest pentru a realiza rularea cu Jenkins.
